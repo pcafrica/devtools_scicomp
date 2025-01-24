@@ -17,7 +17,6 @@ This Ph.D. course is offered by SISSA (International School for Advanced Studies
 | Tue 11 Feb 2025 | 09:00 - 11:00 | 003  | Lecture. |
 | Tue 11 Feb 2025 | 14:00 - 17:00 | 003  | Practical session. |
 | Thu 13 Feb 2025 | 09:00 - 11:00 | 003  | Lecture. |
-| Thu 13 Feb 2025 | 14:00 - 17:00 | 003  | Practical session. |
 | Fri 14 Feb 2025 | 09:00 - 11:00 | 003  | Lecture. |
 | Fri 14 Feb 2025 | 14:00 - 17:00 | 003  | Practical session. |
 | Tue 18 Feb 2025 | 09:00 - 11:00 | 003  | Lecture. |
