@@ -1,0 +1,52 @@
+name: md-to-pages
+concurrency: md-to-pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Converts Markdown to HTML
+        uses: jaywcjlove/markdown-to-html-cli@main
+        with:
+          source: README.md
+          output: index.html
+          github-corners: https://github.com/pcafrica/devtools_scicomp
+
+      - name: Install Marp-CLI
+        run: npm install -g @marp-team/marp-cli
+
+      - name: Build lectures
+        run: |
+             marp --bespoke.progress --theme style/custom.css --html -I lectures/ -o lectures/
+             marp --bespoke.progress --theme style/custom.css --html -I lectures/ -o lectures/ --pdf --pdf-outlines
+
+      - name: Build exercise sessions
+        run: |
+             marp --bespoke.progress --theme style/custom.css --html -I exercises/ -o exercises/
+             marp --bespoke.progress --theme style/custom.css --html -I exercises/ -o exercises/ --pdf --pdf-outlines
+
+      - name: Setup pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
