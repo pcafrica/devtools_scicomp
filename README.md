@@ -23,4 +23,4 @@ This Ph.D. course is offered by SISSA (International School for Advanced Studies
 | Thu 20 Feb 2025 | 09:00 - 12:00 | 003 | Practical session. [[Markdown](exercises/3/3.md)] [[HTML](https://pcafrica.github.io/devtools_scicomp/exercises/3/3.html)] [[PDF](https://pcafrica.github.io/devtools_scicomp/exercises/3/3.pdf)]                                          |
 | Thu 20 Feb 2025 | 14:00 - 16:00 | 003 | Parallel computing and HPC resources. [[Markdown](lectures/5/5.md)] [[HTML](https://pcafrica.github.io/devtools_scicomp/lectures/5/5.html)] [[PDF](https://pcafrica.github.io/devtools_scicomp/lectures/5/5.pdf)]                          |
 | Fri 21 Feb 2025 | 09:00 - 12:00 | TBD | Practical session. [[Markdown](exercises/4/4.md)] [[HTML](https://pcafrica.github.io/devtools_scicomp/exercises/4/4.html)] [[PDF](https://pcafrica.github.io/devtools_scicomp/exercises/4/4.pdf)]                                          |
-| Fri 21 Feb 2025 | 16:00 - 19:00 | TBD | |
+| Fri 21 Feb 2025 | 16:00 - 19:00 | TBD | |Last lecture practical session529525925
