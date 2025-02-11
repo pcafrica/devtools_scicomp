@@ -1,6 +1,6 @@
 # Development Tools for Scientific Computing
 
-This repository contains material for the *Development Tools for Scientific Computing* course. Academic Year 2024-2025.
+This repository contains material for the *Development Tools for Scientific Computing* course. Academic Year 2024-2025 and a lot of pull requests done by the attendant.
 <br>
 
 This Ph.D. course is offered by SISSA (International School for Advanced Studies), Trieste, Italy.
