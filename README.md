@@ -5,9 +5,6 @@ This repository contains material for the *Development Tools for Scientific Comp
 
 This Ph.D. course is offered by SISSA (International School for Advanced Studies), Trieste, Italy.
 
-# Documents
-- [Syllabus](syllabus.md).
-
 # Links and resources
 - [Course material](https://github.com/pcafrica/devtools_scicomp/).
 
