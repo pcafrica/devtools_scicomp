@@ -5,6 +5,9 @@ This repository contains material for the *Development Tools for Scientific Comp
 
 This Ph.D. course is offered by SISSA (International School for Advanced Studies), Trieste, Italy.
 
+# :warning: Exam rules
+- [Exam rules](exam_rules.md).
+
 # Documents
 - [Syllabus](syllabus.md).
 
