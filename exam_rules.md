@@ -17,7 +17,7 @@ Dr. Dario Coscia <<dcoscia@sissa.it>>
 - The final exam consists of a project to be chosen from [this list](exam_projects.md).
 - For projects marked as *complex*, students may work in groups of up to **2** people.
 - The code should expose unit tests to ensure correctness.
-- **Throughout** the project, students must work with `git` (using the same structure as seen during practical sessions) and store their code on their GitHub practical sessions repository.
+- **Throughout** the project, students must work with `git` (using the same structure as seen during the practical sessions) and store their code on their `devtools_scicomp_project_2025` GitHub repository.
 - The maximum score for the final project is **25**.
 - **Bonus**: Implementing CI/CD pipelines, showcasing results of profiling, optimization, using parallel computing techniques, or running computational clusters may contribute additional points.
 
