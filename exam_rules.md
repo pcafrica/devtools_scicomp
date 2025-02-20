@@ -19,7 +19,7 @@ Dr. Dario Coscia <<dcoscia@sissa.it>>
 - The code should expose unit tests to ensure correctness.
 - **Throughout** the project, students must work with `git` (using the same structure as seen during the practical sessions) and store their code on their `devtools_scicomp_project_2025` GitHub repository.
 - The maximum score for the final project is **25**.
-- **Bonus**: Implementing CI/CD pipelines, showcasing results of profiling, optimization, using parallel computing techniques, or running computational clusters may contribute additional points.
+- **Bonus**: Implementing CI/CD pipelines, showcasing results of profiling, optimization, using parallel computing techniques, or running on computational clusters may contribute additional points.
 
 # Practical sessions
 - Completing exercises from the practical sessions contributes up to **5 additional points** to the final grade.
