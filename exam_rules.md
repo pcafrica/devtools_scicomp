@@ -29,7 +29,7 @@ The maximum achievable grade for the exam is **30**. Honors may be granted in ex
 
 # Deliverables
 Upon completion, students must send an email to **both** the instructor and the assistant, including:
-    - Their full name;
-    - The course they are enrolled in;
-    - The link to their practical sessions repository;
-    - The link to their project repository.
+- Their full name;
+- The course they are enrolled in;
+- The link to their practical sessions repository;
+- The link to their project repository.
