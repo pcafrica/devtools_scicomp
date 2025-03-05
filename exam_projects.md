@@ -316,3 +316,26 @@ $$
 ### Expected output
 - Performance comparison charts (accuracy, training time, memory usage) between S4, SSM, and other models.
 - Analysis of how well the model handles long-range dependencies.
+
+---
+
+## 13. Efficient Attention Implementations
+
+### Problem statement
+Implement efficient **attention**, **sparse attention**, and **flash attention** for Transformer networks.
+
+### Mathematical formulation
+- **attention** mathematical implementation is reported in [this paper](https://arxiv.org/abs/1706.03762).
+- **sparse attention** mathematical implementation is reported in [this paper](https://arxiv.org/abs/1904.10509).
+- **flash attention** mathematical implementation is reported in [this paper](https://arxiv.org/abs/2205.14135).
+
+### Implementation steps
+1. Implement an efficient version of the three attention mechanisms in PyTorch.
+2. Compare your implementation against the original paper's implementations. You can use [this implementation](https://pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html) for base attention and flash attention, while [this implementation](https://github.com/kyegomez/SparseAttention?tab=readme-ov-file) for sparse attention.
+3. Train a small language model (max 100M params) using data-parallelism in Pytorch Lightning and the Transformer architecture (you can use [this](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/05-transformers-and-MH-attention.html) backbone).
+
+### Expected output
+- Performance comparison (runtime vs. sequence length).
+- Memory usage profile for different implementations.
+- Training and inference time using the three attention implementations and comparing performance of perplexity using the three attention implementations against a standard PyTorch implementation.
+
