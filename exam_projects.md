@@ -293,7 +293,7 @@ Implement efficient **minLSTM** and **minGRU**, which are minimalistic versions 
 
 ---
 
-## 12. (Regular 1-3, Complex 1-4) Implementing Structured State Space Models (S4)
+## 12. (Regular 1-3, Complex 1-4) Implementing Structured State Space Models
 
 ### Problem statement
 Implement the **Structured State Space (S4/S6) model**, which is an efficient and scalable variant of SSMs designed for modelling long-range dependencies in sequential data. Refer to [this paper](https://arxiv.org/abs/2312.00752) for an overview.
@@ -311,7 +311,7 @@ $$
 1. Implement the baseline version of S4 by following the mathematical formulation using PyTorch or TensorFlow.
 2. Implement optimizations such as low-rank matrix approximations and using efficient convolutional operations to handle long-range dependencies.
 3. Compare the performance (speed, memory, accuracy) of S4 with vanilla SSMs and other sequence models like LSTMs and Transformers.
-4. (Complex) Implement with S4 layers the Mamba, H3, and Gated MLP architectures. Test on the selective copy task.
+4. (Complex) Implement with S4/S6 layers the Mamba, H3, and Gated MLP architectures. Test on the selective copy task. **Do not** implement hardware-aware S6. 
 
 ### Expected output
 - Performance comparison charts (accuracy, training time, memory usage) between S4, SSM, and other models.
